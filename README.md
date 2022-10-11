@@ -1,4 +1,4 @@
-# whether-dashboard
+# wheather-dashboard
 third-party APIs for forecast wheather 5 day request with specific parameters
 # 06 Server-Side APIs: Weather Dashboard
 
