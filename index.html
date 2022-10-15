@@ -4,9 +4,10 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <title>CSS Box Model</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/styles.css">
   </head>
 
   <body>
@@ -14,55 +15,26 @@
       <h1>HTML Box Model</h1>
     </header>
     
-    <section>
-      <div class="example-box">
-        <h2>Content Area</h2>
-        <h3>is made up of the width and height of the content</h3>
-        <img src="./assets/images/image-1.png" alt="box with number 1"/>
-        <h4>The content has a width of 200px</h4>
-        <h4>The content has a height of 200px</h4>
-      </div>
-    </section>
+    <div class="contenier row">
+      <section class="col-4">
+        <input type="text" class="inputfield"/>
+        <button class="submitbtn">search</button>
+      </section>
 
-    <section>
-      <div class="example-box">
-        <h2>Padding Area</h2>
-        <h3>extends the content area to include padding around it</h3>
-        <img class="image-padding" src="./assets/images/image-1.png" alt="box with number 1"/>
-        <h4>The content has a width of 200px</h4>
-        <h4>The content has a height of 200px</h4>
-        <h4>The padding on each side of the content is 20px</h4>
-      </div>
-    </section>
-
-    <section>
-      <div class="example-box">
-        <h2>Border Area</h2>
-        <h3>extends the content area and padding to include border around it</h3>
-        <img class="image-padding image-border" src="./assets/images/image-1.png" alt="box with number 1"/>
-        <h4>The content has a width of 200px</h4>
-        <h4>The content has a height of 200px</h4>
-        <h4>The padding on each side of the content is 20px</h4>
-        <h4>The border on each side is 10px</h4>
-      </div>
-    </section>
-
-    <section>
-      <div class="example-box">
-        <h2>Margin Area</h2>
-        <h3>extends the content area, padding, and border to include the margin around it</h3>
-        <img class="image-padding image-border image-margin" src="./assets/images/image-1.png" alt="box with number 1"/>
-        <img class="image-padding image-border image-margin" src="./assets/images/image-1.png" alt="box with number 1"/>
-        <h4>The content has a width of 200px</h4>
-        <h4>The content has a height of 200px</h4>
-        <h4>The padding on each side of the content is 20px</h4>
-        <h4>The border on each side is 10px</h4>
-        <h4>The margin on each side is 20px.</h4>
-        <h4>Total width of each box = 300px (200px + 20px + 20px + 10px + 10px + 20px + 20px)</h4>
-        <h4>Total height of each box = 300px (200px + 20px + 20px + 10px + 10px + 20px + 20px)</h4>
-      </div>
-    </section>
+      <main class="col-8"> 
+        <section class="currentwheather">
+          <h2 class="cityname">Charlottesville</h2>
+          <h3 class="temp">temp: 39</h3>
+          <h3 class="hum">hum: 60</h3>
+          <h3 class="wind">wind: 3</h3>
       
+        </section>
+        <section class="forescast"></section>
+      </main>
+
+    </div>
+
+    
   </body>
 
 </html>
