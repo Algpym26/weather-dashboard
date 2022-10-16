@@ -1,4 +1,20 @@
 h1{
   padding: 10px;
   text-align: center;
+  background-color: rgb(116, 175, 204);
 }
+header{
+  padding-bottom: 40px;
+ 
+  }
+
+button{
+  margin:10px; 
+  padding-inline-start: 84px;
+  background-color: rgb(167, 167, 206);
+  
+}
+
+
+
+
