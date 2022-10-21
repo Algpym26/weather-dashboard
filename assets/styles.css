@@ -1,19 +1,28 @@
 h1{
   padding: 10px;
   text-align: center;
-  background-color: rgb(116, 175, 204);
+  background-color: rgb(71, 110, 129);
 }
 header{
-  padding-bottom: 40px;
- 
-  }
+  padding-bottom: 20px;
+}
+button {
+  padding: 84:border;
+  background-color: rgb(71, 110, 129);
+  
 
-button{
-  margin:10px; 
-  padding-inline-start: 84px;
-  background-color: rgb(167, 167, 206);
+}
+
+
+
+}
+
+ }
+  
   
 }
+  
+
 
 
 
