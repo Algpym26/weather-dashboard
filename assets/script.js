@@ -31,5 +31,19 @@ searchButton.addEventListener("click", function(event){
 
 function getLocation(city){
     console.log(city)
+var locationURL="https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=81ccc9c6a08c941e92df0ad282737a69&units=imperial"
 
+fetch(locationURL)
+.then (function(respond){
+    return respond.json()
+})
+.then (function(data){
+    console.log (data)
+    cityName.textContent=data.name
+    currentTemp.textContent="Temp: "+data.main.temp
+    currentHum.textContent="Hum: "+data.main.humidity
+    currentWind.textContent="Wind: "+data.wind.speed
+    currentUvindex.textContent="Description: "+data.weather[0].description
+})
 }
+
