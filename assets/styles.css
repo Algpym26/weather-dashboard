@@ -7,21 +7,19 @@ header{
   padding-bottom: 20px;
 }
 button {
-  padding: 84:border;
+  
   background-color: rgb(71, 110, 129);
   
 
 }
 
-
-
+.forecast{display: flex ;}
+.card{
+  border: 4px solid rgb(100, 45, 11);
+  padding: 20px;
+  margin: 8px;
 }
 
- }
-  
-  
-}
-  
 
 
 
